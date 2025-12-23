@@ -1,2 +1,2 @@
 # java-lab-cse-g-5cn
-EXPERIMENT-1
+it is a java lab in 2nd b.tech 2nd sem
