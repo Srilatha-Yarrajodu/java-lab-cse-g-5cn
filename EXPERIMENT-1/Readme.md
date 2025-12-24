@@ -63,8 +63,8 @@ class QuadraticEquationSolution {
 }
 ```
 ## Output:
-![case-1](d1)
+![output1](d1)
 
-![case-2](d2)
+![output2](d2)
 
-![case-3](d3)
+![coutput3](d3)
