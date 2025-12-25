@@ -64,8 +64,8 @@ class QuadraticEquationSolution {
 }
 ```
 ## Output:
-![case1](d1)
+![case1](d1.png)
 
-![case2](d2)
+![case2](d2.png)
 
-![case3](d3)
+![case3](d3.png)
