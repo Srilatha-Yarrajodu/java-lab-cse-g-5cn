@@ -54,4 +54,4 @@ class main {
 ```
 
 # Output:
-![output](fib.png)
+![output](fib.PNG)
