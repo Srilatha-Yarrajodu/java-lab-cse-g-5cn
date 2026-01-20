@@ -26,4 +26,4 @@ class main {
 
 ```
 # OUTPUT:
-![OUPUT](S1.PNG)
+![OUPUT](S1.png)
