@@ -93,7 +93,7 @@ class Main{
 
 ```
 # OUTPUT: 
-![OUTPUT](bs.PNG)
+![OUTPUT](bs.png)
 
 # 3C) TITLE: TO SORT FOR AN ELEMENT IN A GIVEN LIST OF ELEMENTS USING BUBBLE SORT.
 # SOURCE CODE:
@@ -135,5 +135,5 @@ class Main {
 }
 ```
 # OUTPUT:
-![OUTPUT](3.PNG)
+![OUTPUT](3.png)
 
