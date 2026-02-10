@@ -62,6 +62,7 @@ class TestSort {
     display(bar);
   }
 }
+```
+# OUTPUT:
+![OUTPUT](so.png)
 
-# output :
-![output](so.png)
