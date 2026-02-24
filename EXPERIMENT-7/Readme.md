@@ -92,5 +92,54 @@ class TestThread {
 # OUTPUT :
 ![OUTPUT](7b.png)
 
+## EXPERIMENT-7C :
+# TITLE: ILLUSTRATING ISALIVE AND JOIN().
+# SOURCE CODE:
+```java
+class LongRunningTask extends Thread {
+
+    public void run() {
+        System.out.println("Long running task Started");
+
+        for(int i = 0; i < 5; i++) {
+            System.out.println("Working... " + i + " iteration");
+            try {
+                Thread.sleep(1000);
+            }
+            catch(Exception e) {
+                System.out.println(e);
+            }
+        }
+
+        System.out.println("Long running task Completed");
+    }
+}
+
+class ThreadDemo {
+
+    public static void main(String[] args) throws Exception {
+
+        LongRunningTask task1 = new LongRunningTask();
+
+        System.out.println("Before starting task1: " + task1.isAlive());
+
+        task1.start();
+
+        System.out.println("After starting task1: " + task1.isAlive());
+
+        System.out.println("Main thread waiting for task1 to complete using join operation");
+
+        task1.join();
+
+        System.out.println("After join: " + task1.isAlive());
+
+        System.out.println("Main thread continues after task1 is completed");
+    }
+}
+
+```
+# OUTPUT:
+![OUTPUT](7c.png)
+
 
 
